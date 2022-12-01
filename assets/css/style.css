@@ -320,7 +320,45 @@ ul
 .aside .nav li a i{
   margin-right: 15px;
 }
-/* home */
+.aside .sosmed
+{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 30px;
+  text-transform: capitalize;
+  height: 40px;
+  background-color: var(--bg-black-50);
+}
+.aside .sosmed .sosmed-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aside .sosmed .sosmed-item li
+{
+  margin-bottom: 20px;
+}
+.aside .sosmed .sosmed-item li a
+{
+  font-size: 18px;
+  font-weight: 600;
+  display: block;
+  color: var(--text-black-900);
+  padding: 5px 15px;
+  border-bottom: 1px solid var(--bg-black-50);
+  transition: all 0.3s ease;
+}
+
+.aside .sosmed .sosmed-item li:hover a
+{
+  color: var(--skin-color);
+}
+.aside .sosmed .sosmed-item li a i{
+  margin-right: 15px;
+} 
+/* home*/
 .home
 {
   min-height: 100vh;
