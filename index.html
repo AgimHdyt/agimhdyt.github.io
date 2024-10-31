@@ -1,504 +1,757 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Responsive HTML Web Portfolio" />
+    <meta name="author" content="Agim Hidayat" />
+    <meta name="keywords" content="Agim Hidayat, Jasa Pembuatan Website," />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="assets/images/logo.jpg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="assets/css/skins/color-1.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- Style Swetcher -->
+    <link
+      rel="stylesheet"
+      href="assets/css/skins/color-1.css"
+      class="alternate-style"
+      title="color-1"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="assets/css/skins/color-2.css"
+      class="alternate-style"
+      title="color-2"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="assets/css/skins/color-3.css"
+      class="alternate-style"
+      title="color-3"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="assets/css/skins/color-4.css"
+      class="alternate-style"
+      title="color-4"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="assets/css/skins/color-5.css"
+      class="alternate-style"
+      title="color-5"
+      disabled
+    />
+    <link rel="stylesheet" href="assets/css/style-switcher.css" />
+    <!-- sweetalert -->
+    <link rel="stylesheet" href="assets/sweetalert2/dist/sweetalert2.min.css" />
+    <title>Agim Hidayat</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Responsive HTML Web Portfolio">
-  <meta name="author" content="Agim Hidayat">
-  <meta name="keywords" content="Agim Hidayat, Jasa Pembuatan Website,">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-  <link rel="shortcut icon" href="assets/images/logo.jpg" type="image/x-icon">
-  <link rel="stylesheet" href="assets/css/skins/color-1.css">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <!-- Style Swetcher -->
-  <link rel="stylesheet" href="assets/css/skins/color-1.css" class="alternate-style" title="color-1" disabled>
-  <link rel="stylesheet" href="assets/css/skins/color-2.css" class="alternate-style" title="color-2" disabled>
-  <link rel="stylesheet" href="assets/css/skins/color-3.css" class="alternate-style" title="color-3" disabled>
-  <link rel="stylesheet" href="assets/css/skins/color-4.css" class="alternate-style" title="color-4" disabled>
-  <link rel="stylesheet" href="assets/css/skins/color-5.css" class="alternate-style" title="color-5" disabled>
-  <link rel="stylesheet" href="assets/css/style-switcher.css">
-  <!-- sweetalert -->
-  <link rel="stylesheet" href="assets/sweetalert2/dist/sweetalert2.min.css">
-  <title>Agim Hidayat</title>
-</head>
-
-<body>
-  <!-- Main Container -->
-  <div class="main-container">
-    <!-- Aside -->
-    <div class="aside">
-      <div class="logo">
-        <a href="#"><span>A</span>gim</a>
-      </div>
-      <div class="nav-toggler">
-        <span></span>
-      </div>
-      <ul class="nav">
-        <li><a href="#home" class="active"><i class="fa fa-home"></i>Home</a></li>
-        <li><a href="#about"><i class="fa fa-user"></i>About</a></li>
-        <li><a href="#service"><i class="fa fa-list"></i>Services</a></li>
-        <li><a href="#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a></li>
-        <li><a href="#contact"><i class="fa fa-comments"></i>Contact</a></li>
-      </ul>
-      <div class="sosmed">
-        <ul class="sosmed-item">
-          <li><a href="https://www.linkedin.com/in/agim-hidayat-31a021259/"><i class="fab fa-linkedin-in"></i></a></li>
-          <li><a href="https://www.instagram.com/a_gimhdyt/"><i class="fab fa-instagram"></i></a></li>
-          <li><a href="https://twitter.com/AgimHidayat"><i class="fab fa-twitter"></i></a></li>
+  <body>
+    <!-- Main Container -->
+    <div class="main-container">
+      <!-- Aside -->
+      <div class="aside">
+        <div class="logo">
+          <a href="#"><span>A</span>gim</a>
+        </div>
+        <div class="nav-toggler">
+          <span></span>
+        </div>
+        <ul class="nav">
+          <li>
+            <a href="#home" class="active"><i class="fa fa-home"></i>Home</a>
+          </li>
+          <li>
+            <a href="#about"><i class="fa fa-user"></i>About</a>
+          </li>
+          <li>
+            <a href="#service"><i class="fa fa-list"></i>Services</a>
+          </li>
+          <li>
+            <a href="#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a>
+          </li>
+          <li>
+            <a href="#contact"><i class="fa fa-comments"></i>Contact</a>
+          </li>
         </ul>
+        <div class="sosmed">
+          <ul class="sosmed-item">
+            <li>
+              <a href="https://www.linkedin.com/in/agim-hidayat-31a021259/"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/a_gimhdyt/"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/AgimHidayat"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-    <!-- Aside End -->
+      <!-- Aside End -->
+      <!-- Main Content Start -->
+      <div class="main-content">
+        <!-- Home Section Start -->
+        <section class="home active section" id="home">
+          <div class="edit">
+            <button class="btn edit-btn modal-btn" target="#modal-home">
+              <i class="fa fa-pen"></i>
+            </button>
+          </div>
+          <!-- Modal -->
+          <div class="modal" id="modal-home">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <div class="modal-body">
+                <div class="modal-header">
+                  <h3 class="title">Edit Hero</h3>
+                </div>
+                <form action="">
+                  <div class="form-item col-12 padd-15">
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        class="form-control"
+                        name="name"
+                        placeholder="Full Name"
+                      />
+                    </div>
+                  </div>
+                  <div class="form-item col-12 padd-15">
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        class="form-control"
+                        name="profession"
+                        placeholder="Profession"
+                      />
+                    </div>
+                  </div>
+                  <div class="form-item col-12 padd-15">
+                    <div class="form-group">
+                      <textarea
+                        name="description"
+                        id="description"
+                        class="form-control"
+                        placeholder="Description"
+                      ></textarea>
+                    </div>
+                  </div>
+                  <div class="form-item col-12 padd-15">
+                    <div class="form-group">
+                      <label for="resume">Image</label>
+                      <input
+                        type="file"
+                        name="image"
+                        id="image"
+                        class="form-control"
+                      />
+                    </div>
+                  </div>
+                  <div class="form-item col-12 padd-15">
+                    <div class="form-group">
+                      <label for="resume">Resume</label>
+                      <input
+                        type="file"
+                        name="resume"
+                        id="resume"
+                        class="form-control"
+                      />
+                    </div>
+                  </div>
+                  <div class="form-item col-12 padd-15">
+                    <div class="form-group">
+                      <button type="submit" class="btn">Submit</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
 
-    <!-- Main Content Start -->
-    <div class="main-content">
-      <!-- Home Section Start -->
-      <section class="home active section" id="home">
-        <div class="container">
-          <div class="row">
-            <div class="home-info padd-15">
-              <h3 class="hello">Hello, my name is <span class="name">Agim Hidayat</span></h3>
-              <h3 class="my-profession">I' m a <span class="typing">web programmer</span></h3>
-              <p>I'm a web programmer with extensive experience for over 3 years. My expertise is create and website
-                app, website design, and any more...</p>
-              <a href="assets/images/cv.png" download="Agim's CV" class="btn">Download CV</a>
-            </div>
-            <div class="home-img padd-15">
-              <img src="assets/images/hero.jpg" alt="">
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- Home Section End -->
-      <!-- About Section Start -->
-      <section class="about section" id="about">
-        <div class="container">
-          <div class="row">
-            <div class="section-title padd-15">
-              <h2>About</h2>
-            </div>
-          </div>
-          <div class="row">
-            <div class="about-content padd-15">
-              <div class="row">
-                <div class="about-text padd-15">
-                  <h3>I'm Agim Hidayat and <span>Web Developer</span></h3>
-                  <p>Agim Hidayat's full name is usually called Agim. Living in West Java to be precise in Karawang.
-                    Third child of five children. Engaged in programming. Get to know programming since the 10th grade
-                    of SMK.</p>
-                </div>
-              </div>
-              <div class="row">
-                <div class="personal-info padd-15">
-                  <div class="row">
-                    <div class="info-item padd-15">
-                      <p>Birthday : <span>1 Feb 2005</span></p>
-                    </div>
-                    <div class="info-item padd-15">
-                      <p>Age : <span>17</span></p>
-                    </div>
-                    <div class="info-item padd-15">
-                      <p>Website : <span>agim-hidayat.epizy.com</span></p>
-                    </div>
-                    <div class="info-item padd-15">
-                      <p>Email : <span>agimhdyt@gmail.com</span></p>
-                    </div>
-                    <div class="info-item padd-15">
-                      <p>Degree : <span>Student</span></p>
-                    </div>
-                    <div class="info-item padd-15">
-                      <p>Phone : <span>0857-1776-6367</span></p>
-                    </div>
-                    <div class="info-item padd-15">
-                      <p>City : <span>Karawang</span></p>
-                    </div>
-                    <div class="info-item padd-15">
-                      <p>Freelance : <span>Available</span></p>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="buttons padd-15">
-                      <a href="#contact" data-section-index="1" class="btn hire-me">Hire Me</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="skills padd-15">
-                  <div class="row">
-                    <div class="skill-item padd-15">
-                      <h5>HTML</h5>
-                      <div class="progress">
-                        <div class="progress-in" style="width: 76%;"></div>
-                        <div class="skill-percent">76%</div>
-                      </div>
-                    </div>
-                    <div class="skill-item padd-15">
-                      <h5>CSS</h5>
-                      <div class="progress">
-                        <div class="progress-in" style="width: 80%;"></div>
-                        <div class="skill-percent">80%</div>
-                      </div>
-                    </div>
-                    <div class="skill-item padd-15">
-                      <h5>Javascript</h5>
-                      <div class="progress">
-                        <div class="progress-in" style="width: 60%;"></div>
-                        <div class="skill-percent">60%</div>
-                      </div>
-                    </div>
-                    <div class="skill-item padd-15">
-                      <h5>PHP</h5>
-                      <div class="progress">
-                        <div class="progress-in" style="width: 70%;"></div>
-                        <div class="skill-percent">70%</div>
-                      </div>
-                    </div>
-                    <div class="skill-item padd-15">
-                      <h5>Laravel</h5>
-                      <div class="progress">
-                        <div class="progress-in" style="width: 75%;"></div>
-                        <div class="skill-percent">75%</div>
-                      </div>
-                    </div>
-                    <div class="skill-item padd-15">
-                      <h5>Codeigniter 4</h5>
-                      <div class="progress">
-                        <div class="progress-in" style="width: 80%;"></div>
-                        <div class="skill-percent">80%</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="education padd-15">
-                  <h3 class="title">Education</h3>
-                  <div class="row">
-                    <div class="timeline-box padd-15">
-                      <div class="timeline shadow-dark">
-                        <!-- timeline item -->
-                        <div class="timeline-item">
-                          <div class="circle-dot"></div>
-                          <h3 class="timeline-date">
-                            <i class="fa fa-calendar"></i> 2020 - Now
-                          </h3>
-                          <h4 class="timeline-title">DARUSSA'ADAH Vocational High School</h4>
-                          <p class="timeline-text">
-                            Currently studying at the Darussa'adah Vocational High School from 2020 until now
-                          </p>
-                        </div>
-                        <!-- timeline item -->
-                        <div class="timeline-item">
-                          <div class="circle-dot"></div>
-                          <h3 class="timeline-date">
-                            <i class="fa fa-calendar"></i> 2017 - 2020
-                          </h3>
-                          <h4 class="timeline-title">AL-IFADAH Islamic Junior High School</h4>
-                          <p class="timeline-text">
-                            Ever studied at al ifadah Islamic junior high school to get religious and general knowledge
-                          </p>
-                        </div>
-                        <!-- timeline item -->
-                        <div class="timeline-item">
-                          <div class="circle-dot"></div>
-                          <h3 class="timeline-date">
-                            <i class="fa fa-calendar"></i> 2011 - 2017
-                          </h3>
-                          <h4 class="timeline-title">CIKALONG III Elementary School</h4>
-                          <p class="timeline-text">
-                            Studied at elementary school from 2011 to 2017 in Cikalong Village, Cilamaya Wetan District,
-                            Karawang Regency
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="experience padd-15">
-                  <h3 class=" title">Experience</h3>
-                  <div class="row">
-                    <div class="timeline-box padd-15">
-                      <div class="timeline shadow-dark">
-                        <!-- timeline item -->
-                        <div class="timeline-item">
-                          <div class="circle-dot"></div>
-                          <h3 class="timeline-date">
-                            <i class="fa fa-calendar"></i> May 2022 - June 2022
-                          </h3>
-                          <h4 class="timeline-title">INTERNSHIP at PT. Max Samsta Grup</h4>
-                          <p class="timeline-text">
-                            Intern at pt max samasta to seek experience and insight in the industrial world
-                          </p>
-                        </div>
-                        <!-- timeline item -->
-                        <!-- <div class="timeline-item">
-                          <div class="circle-dot"></div>
-                          <h3 class="timeline-date">
-                            <i class="fa fa-calendar"></i> 2012 - 2015
-                          </h3>
-                          <h4 class="timeline-title">Master in Computer Science</h4>
-                          <p class="timeline-text">
-
-                          </p>
-                        </div> -->
-                        <!-- timeline item -->
-                        <!-- <div class="timeline-item">
-                          <div class="circle-dot"></div>
-                          <h3 class="timeline-date">
-                            <i class="fa fa-calendar"></i> 2012 - 2015
-                          </h3>
-                          <h4 class="timeline-title">Master in Computer Science</h4>
-                          <p class="timeline-text">
-
-                          </p>
-                        </div> -->
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- About Section End -->
-      <!-- Services Section Start -->
-      <section class="service section" id="service">
-        <div class="container">
-          <div class="row">
-            <div class="section-title padd-15">
-              <h2>Services</h2>
-            </div>
-          </div>
-          <div class="row">
-            <!-- Service item Start -->
-            <div class="service-item padd-15">
-              <div class="service-item-inner">
-                <div class="icon">
-                  <i class="fa fa-mobile-alt"></i>
-                </div>
-                <h4>Web Design</h4>
-                <p>Able to create a web design using html, css, javascript and using bootstrap</p>
-              </div>
-            </div>
-            <div class="service-item padd-15">
-              <div class="service-item-inner">
-                <div class="icon">
-                  <i class="fa fa-palette"></i>
-                </div>
-                <h4>Design Graphic</h4>
-                <p>I can make graphic designs using Corel, Photoshop and other design software</p>
-              </div>
-            </div>
-            <div class="service-item padd-15">
-              <div class="service-item-inner">
-                <div class="icon">
-                  <i class="fa fa-code"></i>
-                </div>
-                <h4>Web Apps</h4>
-                <p>Able to create a web using html, css, js, and also php, jquery, laravel and
-                  codeigniter 4</p>
-              </div>
-            </div>
-            <div class="service-item padd-15">
-              <div class="service-item-inner">
-                <div class="icon">
-                  <i class="fa fa-laptop-code"></i>
-                </div>
-                <h4>Database</h4>
-                <p>Database management uses mysql and can use basic queries such as select, insert, delete, update,
-                  join, and others</p>
-              </div>
-            </div>
-            <div class="service-item padd-15">
-              <div class="service-item-inner">
-                <div class="icon">
-                  <i class="fa fa-bullhorn"></i>
-                </div>
-                <h4>Web Design</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia illo laudantium soluta deleniti
+          <div class="container">
+            <div class="row">
+              <div class="home-info padd-15">
+                <h3 class="hello">
+                  Hello, my name is <span class="name">Agim Hidayat</span>
+                </h3>
+                <h3 class="my-profession">
+                  I' m a <span class="typing">Fullstack Developer.</span>
+                </h3>
+                <p>
+                  Helping businesses create unique and engaging digital
+                  experiences.
                 </p>
+                <a
+                  href="assets/images/resume.pdf"
+                  download="Resume_Agim"
+                  class="btn"
+                  >Download CV</a
+                >
+              </div>
+              <div class="home-img padd-15">
+                <img src="assets/images/hero.jpg" alt="" />
               </div>
             </div>
-            <div class="service-item padd-15">
-              <div class="service-item-inner">
-                <div class="icon">
-                  <i class="fa fa-search"></i>
+          </div>
+        </section>
+        <!-- Home Section End -->
+        <!-- About Section Start -->
+        <section class="about section" id="about">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>About</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="about-content padd-15">
+                <div class="row">
+                  <div class="about-text padd-15">
+                    <h3>I'm Agim Hidayat and <span>Web Developer</span></h3>
+                    <p>
+                      I’m a Fullstack Developer with expertise in building
+                      efficient, responsive, and robust web applications. With
+                      experience in both front-end and back-end development, I
+                      bring a holistic approach to crafting digital solutions
+                      that are both visually appealing and highly functional.
+                      After graduating with a degree in Information Technology,
+                      I have collaborated with tech companies and individual
+                      clients to turn ideas into reality. Passionate about new
+                      technologies, I enjoy diving into coding challenges and
+                      contributing to the developer community.
+                    </p>
+                  </div>
                 </div>
-                <h4>Web Design</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia illo laudantium soluta deleniti
-                </p>
+                <div class="row">
+                  <div class="personal-info padd-15">
+                    <div class="row">
+                      <div class="info-item padd-15">
+                        <p>Birthday : <span>1 Feb 2005</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Age : <span>17</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Website : <span>agim-hidayat.epizy.com</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Email : <span>agimhdyt@gmail.com</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Degree : <span>Student</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Phone : <span>0857-1776-6367</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>City : <span>Karawang</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Freelance : <span>Available</span></p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="buttons padd-15">
+                        <a
+                          href="#contact"
+                          data-section-index="1"
+                          class="btn hire-me"
+                          >Hire Me</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="container padd-15">
+                    <div class="row">
+                      <div class="skill-heading padd-15">
+                        <h2>My Skills Technology :</h2>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <!-- skill item start -->
+                      <div class="skill-item padd-15">
+                        <div class="skill-item-inner shadow-dark">
+                          <div class="skill-name">
+                            <h3>HTML Course</h3>
+                          </div>
+                          <div class="skill-img">
+                            <img src="assets/images/1.jpg" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <div class="skill-item-inner shadow-dark">
+                          <div class="skill-name">
+                            <h3>CSS Course</h3>
+                          </div>
+                          <div class="skill-img">
+                            <img src="assets/images/2.jpg" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <div class="skill-item-inner shadow-dark">
+                          <div class="skill-name">
+                            <h3>Javascript Course</h3>
+                          </div>
+                          <div class="skill-img">
+                            <img src="assets/images/3.png" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <div class="skill-item-inner shadow-dark">
+                          <div class="skill-name">
+                            <h3>Front End Course</h3>
+                          </div>
+                          <div class="skill-img">
+                            <img src="assets/images/4.png" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                      <!-- skill item end -->
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="education padd-15">
+                    <h3 class="title">Education</h3>
+                    <div class="row">
+                      <div class="timeline-box padd-15">
+                        <div class="timeline shadow-dark">
+                          <!-- timeline item -->
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"></i> 2020 - Now
+                            </h3>
+                            <h4 class="timeline-title">
+                              DARUSSA'ADAH Vocational High School
+                            </h4>
+                            <p class="timeline-text">
+                              Currently studying at the Darussa'adah Vocational
+                              High School from 2020 until now
+                            </p>
+                          </div>
+                          <!-- timeline item -->
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"></i> 2017 - 2020
+                            </h3>
+                            <h4 class="timeline-title">
+                              AL-IFADAH Islamic Junior High School
+                            </h4>
+                            <p class="timeline-text">
+                              Ever studied at al ifadah Islamic junior high
+                              school to get religious and general knowledge
+                            </p>
+                          </div>
+                          <!-- timeline item -->
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"></i> 2011 - 2017
+                            </h3>
+                            <h4 class="timeline-title">
+                              CIKALONG III Elementary School
+                            </h4>
+                            <p class="timeline-text">
+                              Studied at elementary school from 2011 to 2017 in
+                              Cikalong Village, Cilamaya Wetan District,
+                              Karawang Regency
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="experience padd-15">
+                    <h3 class="title">Experience</h3>
+                    <div class="row">
+                      <div class="timeline-box padd-15">
+                        <div class="timeline shadow-dark">
+                          <!-- timeline item -->
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"></i> May 2022 - June
+                              2022
+                            </h3>
+                            <h4 class="timeline-title">
+                              INTERNSHIP at PT. Max Samsta Grup
+                            </h4>
+                            <p class="timeline-text">
+                              Intern at pt max samasta to seek experience and
+                              insight in the industrial world
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="container padd-15">
+                    <div class="row">
+                      <div class="skill-heading padd-15">
+                        <h2>My Certificates :</h2>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <!-- skill item start -->
+                      <div class="skill-item padd-15">
+                        <div class="skill-item-inner shadow-dark">
+                          <div class="skill-name">
+                            <h3>HTML Course</h3>
+                          </div>
+                          <div class="skill-img">
+                            <img src="assets/images/1.jpg" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <div class="skill-item-inner shadow-dark">
+                          <div class="skill-name">
+                            <h3>CSS Course</h3>
+                          </div>
+                          <div class="skill-img">
+                            <img src="assets/images/2.jpg" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <div class="skill-item-inner shadow-dark">
+                          <div class="skill-name">
+                            <h3>Javascript Course</h3>
+                          </div>
+                          <div class="skill-img">
+                            <img src="assets/images/3.png" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <div class="skill-item-inner shadow-dark">
+                          <div class="skill-name">
+                            <h3>Front End Course</h3>
+                          </div>
+                          <div class="skill-img">
+                            <img src="assets/images/4.png" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                      <!-- skill item end -->
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-            <!-- Service item End -->
           </div>
-        </div>
-      </section>
-      <!-- Services Section End -->
-      <!-- Portfolio Section Start -->
-      <section class="portfolio section" id="portfolio">
-        <div class="container">
-          <div class="row">
-            <div class="section-title">
-              <h2>Portfolio</h2>
+        </section>
+        <!-- About Section End -->
+        <!-- Services Section Start -->
+        <section class="service section" id="service">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>Services</h2>
+              </div>
+            </div>
+            <div class="row">
+              <!-- Service item Start -->
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-bullhorn"></i>
+                  </div>
+                  <h4>Front-End Development</h4>
+                  <p>
+                    Membangun antarmuka yang responsif dan dinamis dengan HTML,
+                    CSS, dan JavaScript.
+                  </p>
+                </div>
+              </div>
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-code"></i>
+                  </div>
+                  <h4>Back-End Development</h4>
+                  <p>
+                    Memastikan aplikasi memiliki struktur yang efisien dan
+                    kinerja yang optimal.
+                  </p>
+                </div>
+              </div>
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-mobile-alt"></i>
+                  </div>
+                  <h4>Fullstack Web Applications</h4>
+                  <p>
+                    Able to create a web design using html, css, javascript and
+                    using bootstrap
+                  </p>
+                </div>
+              </div>
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-database"></i>
+                  </div>
+                  <h4>Database Management</h4>
+                  <p>
+                    Merancang dan mengelola database menggunakan MySQL, MongoDB,
+                    atau PostgreSQL.
+                  </p>
+                </div>
+              </div>
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-user-friends"></i>
+                  </div>
+                  <h4>Technology Consulting</h4>
+                  <p>
+                    Konsultasi mengenai pengembangan produk atau strategi
+                    teknologi untuk mencapai hasil terbaik.
+                  </p>
+                </div>
+              </div>
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-laptop-house"></i>
+                  </div>
+                  <h4>Website Optimization & Maintenance</h4>
+                  <p>
+                    I can make graphic designs using Corel, Photoshop and other
+                    design software
+                  </p>
+                </div>
+              </div>
+              <!-- Service item End -->
             </div>
           </div>
-          <div class="row">
-            <div class="portfolio-heading padd-15">
-              <h2>My Last Projects :</h2>
+        </section>
+        <!-- Services Section End -->
+        <!-- Portfolio Section Start -->
+        <section class="portfolio section" id="portfolio">
+          <div class="container">
+            <div class="row">
+              <div class="section-title">
+                <h2>Portfolio</h2>
+              </div>
             </div>
-          </div>
-          <div class="row">
-            <!-- portfolio item start -->
-            <div class="portfolio-item padd-15">
-              <div class="portfolio-item-inner shadow-dark">
+            <div class="row">
+              <div class="portfolio-heading padd-15">
+                <h2>My Last Projects :</h2>
+              </div>
+            </div>
+            <div class="row">
+              <!-- portfolio item start -->
+              <div class="portfolio-item padd-15 shadow-dark">
+                <div class="portfolio-img">
+                  <img src="assets/images/1.jpg" alt="" />
+                </div>
                 <div class="portfolio-name">
                   <h3>HTML Course</h3>
                 </div>
-                <div class="portfolio-img">
-                  <img src="assets/images/1.jpg" alt="">
+                <div class="portfolio-description">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Officia illo laudantium soluta deleniti
+                  </p>
+                </div>
+                <div class="portfolio-btn">
+                  <a href="assets/images/1.jpg" class="btn"
+                    >View Project <i class="fa fa-external-link-alt"></i
+                  ></a>
                 </div>
               </div>
-            </div>
-            <div class="portfolio-item padd-15">
-              <div class="portfolio-item-inner shadow-dark">
+              <div class="portfolio-item padd-15 shadow-dark">
+                <div class="portfolio-img">
+                  <img src="assets/images/1.jpg" alt="" />
+                </div>
                 <div class="portfolio-name">
-                  <h3>CSS Course</h3>
+                  <h3>HTML Course</h3>
                 </div>
-                <div class="portfolio-img">
-                  <img src="assets/images/2.jpg" alt="">
+                <div class="portfolio-description">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Officia illo laudantium soluta deleniti
+                  </p>
                 </div>
-              </div>
-            </div>
-            <div class="portfolio-item padd-15">
-              <div class="portfolio-item-inner shadow-dark">
-                <div class="portfolio-name">
-                  <h3>Javascript Course</h3>
-                </div>
-                <div class="portfolio-img">
-                  <img src="assets/images/3.png" alt="">
+                <div class="portfolio-btn">
+                  <a href="assets/images/1.jpg" class="btn"
+                    >View Project <i class="fa fa-external-link-alt"></i
+                  ></a>
                 </div>
               </div>
-            </div>
-            <div class="portfolio-item padd-15">
-              <div class="portfolio-item-inner shadow-dark">
-                <div class="portfolio-name">
-                  <h3>Front End Course</h3>
-                </div>
-                <div class="portfolio-img">
-                  <img src="assets/images/4.png" alt="">
-                </div>
-              </div>
-            </div>
-            <!-- portfolio item end -->
-          </div>
-        </div>
-      </section>
-      <!-- Portfolio Section End -->
-      <!-- Contact Section Start -->
-      <section class="contact section" id="contact">
-        <div class="container">
-          <div class="row">
-            <div class="section-title padd-15">
-              <h2>Contact Me</h2>
-            </div>
-          </div>
-          <h3 class="contact-title padd-15">Have You Any Question ?</h3>
-          <h4 class="contact-sub-title padd-15">I'M AT YOUR SERVICES</h4>
-          <div class="row">
-            <!-- Contact info item start -->
-            <div class="contact-info-item padd-15">
-              <div class="icon"><i class="fa fa-phone"></i></div>
-              <h4>Call Us On</h4>
-              <p>0857-1776-6367</p>
-            </div>
-            <div class="contact-info-item padd-15">
-              <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
-              <h4>Office</h4>
-              <p>Karawang</p>
-            </div>
-            <div class="contact-info-item padd-15">
-              <div class="icon"><i class="fa fa-envelope"></i></div>
-              <h4>Email</h4>
-              <p>agim@gmail.com</p>
-            </div>
-            <div class="contact-info-item padd-15">
-              <div class="icon"><i class="fa fa-globe"></i></div>
-              <h4>Website</h4>
-              <p>www.agim.com</p>
-            </div>
-            <!-- Contact info item end -->
-          </div>
-          <h3 class="contact-title padd-15">SEND ME AN EMAIL</h3>
-          <h4 class="contact-sub-title padd-15">I'M VERY RESPOSIVE TO MESSAGE</h4>
-          <!-- contact form -->
-          <div class="row">
-            <form class="contact-form padd-15" name="submit-to-google-sheet">
-              <div class="row">
-                <div class="form-item col-6 padd-15">
-                  <div class="form-group">
-                    <input type="text" class="form-control" name="name" placeholder="Name">
-                  </div>
-                </div>
-                <div class="form-item col-6 padd-15">
-                  <div class="form-group">
-                    <input type="email" class="form-control" name="email" placeholder="Email">
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="form-item col-12 padd-15">
-                  <div class="form-group">
-                    <input type="text" class="form-control" name="subject" placeholder="Subject">
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="form-item col-12 padd-15">
-                  <div class="form-group">
-                    <textarea name="message" id="" class="form-control" placeholder="Message"></textarea>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="form-item col-12 padd-15">
-                  <button type="submit" class="btn btn-kirim">Send Message</button>
-                  <button type="submit" class="btn btn-loading hidden"><i class="fa fa-spinner fa-spin"></i> Loading...</button>
-                </div>
-              </div>
-            </form>
-      </section>
-      <!-- Contact Section End -->
-    </div>
-    <!-- Main Cntent End -->
-  </div>
-  <!-- Main Container End -->
-  <!-- Style Swicher Start -->
-  <div class="style-switcher">
-    <div class="style-switcher-toggler s-icon">
-      <i class="fas fa-cog fa-spin"></i>
-    </div>
-    <div class="day-night s-icon">
-      <i class="fas "></i>
-    </div>
-    <h4>Theme Colors</h4>
-    <div class="colors">
-      <span class="color-1" onclick="setActiveStyle('color-1')"></span>
-      <span class="color-2" onclick="setActiveStyle('color-2')"></span>
-      <span class="color-3" onclick="setActiveStyle('color-3')"></span>
-      <span class="color-4" onclick="setActiveStyle('color-4')"></span>
-      <span class="color-5" onclick="setActiveStyle('color-5')"></span>
-    </div>
-  </div>
-  <!-- Style Swicher End -->
 
-  <!-- Js Files -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
-    referrerpolicy="no-referrer"></script>
-  <script src="assets/js/javascript.js"></script>
-  <script src="assets/js/style-switcher.js"></script>
-  <script src="assets/sweetalert2/dist/sweetalert2.min.js"></script>
-</body>
+              <!-- portfolio item end -->
+            </div>
+          </div>
+        </section>
+        <!-- Portfolio Section End -->
+        <!-- Contact Section Start -->
+        <section class="contact section" id="contact">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>Contact Me</h2>
+              </div>
+            </div>
+            <h3 class="contact-title padd-15">
+              Interested in working together or have questions? Let’s connect!
+            </h3>
+            <h4 class="contact-sub-title padd-15">I'M AT YOUR SERVICES</h4>
+            <div class="row">
+              <!-- Contact info item start -->
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-phone"></i></div>
+                <h4>Call Us On</h4>
+                <p>0857-1776-6367</p>
+              </div>
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
+                <h4>Address</h4>
+                <p>Karawang</p>
+              </div>
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-envelope"></i></div>
+                <h4>Email</h4>
+                <p>agim@gmail.com</p>
+              </div>
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-globe"></i></div>
+                <h4>Website</h4>
+                <p>www.agim.com</p>
+              </div>
+              <!-- Contact info item end -->
+            </div>
+            <h3 class="contact-title padd-15">SEND ME AN EMAIL</h3>
+            <h4 class="contact-sub-title padd-15">
+              I'M VERY RESPOSIVE TO MESSAGE
+            </h4>
+            <!-- contact form -->
+            <div class="row">
+              <form class="contact-form padd-15" name="submit-to-google-sheet">
+                <div class="row">
+                  <div class="form-item col-6 padd-15">
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        class="form-control"
+                        name="name"
+                        placeholder="Name"
+                      />
+                    </div>
+                  </div>
+                  <div class="form-item col-6 padd-15">
+                    <div class="form-group">
+                      <input
+                        type="email"
+                        class="form-control"
+                        name="email"
+                        placeholder="Email"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-item col-12 padd-15">
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        class="form-control"
+                        name="subject"
+                        placeholder="Subject"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-item col-12 padd-15">
+                    <div class="form-group">
+                      <textarea
+                        name="message"
+                        id=""
+                        class="form-control"
+                        placeholder="Message"
+                      ></textarea>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-item col-12 padd-15">
+                    <button type="submit" class="btn btn-kirim">
+                      Send Message
+                    </button>
+                    <button type="submit" class="btn btn-loading hidden">
+                      <i class="fa fa-spinner fa-spin"></i> Loading...
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
+        <!-- Contact Section End -->
+      </div>
+      <!-- Main Cntent End -->
+    </div>
+    <!-- Main Container End -->
+    <!-- Style Swicher Start -->
+    <div class="style-switcher">
+      <div class="style-switcher-toggler s-icon">
+        <i class="fas fa-cog fa-spin"></i>
+      </div>
+      <div class="day-night s-icon">
+        <i class="fas"></i>
+      </div>
+      <h4>Theme Colors</h4>
+      <div class="colors">
+        <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+        <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+        <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+        <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+        <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+      </div>
+    </div>
+    <!-- Style Swicher End -->
 
+    <!-- Js Files -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="assets/js/javascript.js"></script>
+    <script src="assets/js/style-switcher.js"></script>
+    <script src="assets/sweetalert2/dist/sweetalert2.min.js"></script>
+  </body>
 </html>

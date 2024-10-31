@@ -81,6 +81,18 @@ function asideSectionTogglerBtn() {
 
   }
 }
+// Modal click
+const modalBtn = document.querySelector('.modal-btn'),
+  modalClose = document.querySelector('.close'), target = modalBtn.getAttribute('target')
+
+modalBtn.addEventListener('click', () => {
+  // open modal sesuai target
+  document.querySelector(target).classList.add('open')
+})
+// make modal close
+modalClose.addEventListener('click', () => {
+  document.querySelector(target).classList.remove('open')
+})
 
 
 // Contact Form
