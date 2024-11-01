@@ -53,24 +53,24 @@ ul {
   display: block;
   padding: 0 30px;
   opacity: 1;
-  position: fixed;
-  left: 270px;
-  top: 0;
+  position: static;
+  margin-left: 270px;
+  /* top: 0;
   right: 0;
-  bottom: 0;
-  overflow-y: auto;
+  bottom: 0; */
+  overflow-y: scroll;
   overflow-x: hidden;
-  z-index: 0;
+  /* z-index: 0; */
   transition: all 0.3s ease;
 }
-.section.back-section {
+/* .section.back-section {
   z-index: 1;
 }
 .section.active {
   z-index: 2;
   opacity: 1;
   animation: slideSection 1s ease;
-}
+} */
 @keyframes slideSection {
   0% {
     transform: translateX(100%);
@@ -145,6 +145,15 @@ ul {
   white-space: nowrap;
   transition: all 0.3s ease;
   cursor: pointer;
+}
+.btn-outline {
+  border: 2px solid var(--skin-color);
+  background: transparent;
+  color: var(--skin-color);
+}
+.btn .fa {
+  font-size: 20px;
+  margin-right: 5px;
 }
 .btn:hover {
   transform: scale(1.05);
@@ -428,6 +437,7 @@ h3.profession {
   font-size: 30px;
   margin: 15px 0;
 }
+
 .typing {
   color: var(--skin-color);
 }
@@ -482,7 +492,7 @@ h3.profession {
   font-weight: 700;
   color: var(--text-black-900);
 }
-.about .about-content .about-text h3 span {
+.about .about-content .about-text h3 .profession {
   color: var(--skin-color);
 }
 .about .about-content .about-text p {
@@ -901,7 +911,8 @@ h3.profession {
     left: 300px;
   }
   .section {
-    left: 0;
+    /* left: 0; */
+    margin-left: 0;
   }
   .section.open {
     left: 270px;

@@ -1,0 +1,19 @@
+[
+  {
+    "nama": "Agim Hidayat",
+    "profession": [
+      "Fullstack Developer",
+      "Backend Developer",
+      "Frontend Developer",
+      "Web Developer",
+      "Graphic Designer"
+    ],
+    "description": "Helping businesses create unique and engaging digital experiences.",
+    "image": "assets/images/hero.jpg",
+    "resume": "assets/images/resume.pdf"
+  },
+  {
+    "name": "Agim Hidayat",
+    "title": "Fullstack Developer"
+  }
+]
