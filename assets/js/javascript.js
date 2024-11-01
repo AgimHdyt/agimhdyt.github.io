@@ -23,9 +23,12 @@
 //   });
 // }
 
+const allSection = document.querySelectorAll(".section"),
+  navLinks = document.querySelectorAll("li a"),
+  navTogglerBtn = document.querySelector(".nav-toggler"),
+  aside = document.querySelector(".aside");
+
 document.addEventListener("DOMContentLoaded", function () {
-  const allSection = document.querySelectorAll(".section");
-  const navLinks = document.querySelectorAll("li a");
   function changeActiveLink() {
     let scrollPos = window.scrollY + window.innerHeight / allSection.length;
     allSection.forEach((section) => {
@@ -37,6 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
         navLinks.forEach((link) => {
           link.classList.remove("active");
           if (link.getAttribute("href") === `#${currentId}`) {
+            // close nav aside
             link.classList.add("active");
           }
         });
@@ -46,6 +50,20 @@ document.addEventListener("DOMContentLoaded", function () {
 
   window.addEventListener("scroll", changeActiveLink);
 });
+
+navTogglerBtn.addEventListener("click", () => {
+  asideSectionTogglerBtn();
+});
+// tutup sidebar ketika tombol link di click
+navLinks.forEach((link) => {
+  link.addEventListener("click", () => {
+    asideSectionTogglerBtn();
+  });
+});
+function asideSectionTogglerBtn() {
+  aside.classList.toggle("open");
+  navTogglerBtn.classList.toggle("open");
+}
 
 // function addBackSection(num) {
 //   allSection[num].classList.add("back-section");
@@ -88,18 +106,18 @@ document.addEventListener("DOMContentLoaded", function () {
 //   addBackSection(sectionIndex);
 // });
 
-const navTogglerBtn = document.querySelector(".nav-toggler"),
-  aside = document.querySelector(".aside");
-navTogglerBtn.addEventListener("click", () => {
-  asideSectionTogglerBtn();
-});
-function asideSectionTogglerBtn() {
-  aside.classList.toggle("open");
-  navTogglerBtn.classList.toggle("open");
-  for (let i = 0; i < totalSection; i++) {
-    allSection[i].classList.toggle("open");
-  }
-}
+// const navTogglerBtn = document.querySelector(".nav-toggler"),
+//   aside = document.querySelector(".aside");
+// navTogglerBtn.addEventListener("click", () => {
+//   asideSectionTogglerBtn();
+// });
+// function asideSectionTogglerBtn() {
+//   aside.classList.toggle("open");
+//   navTogglerBtn.classList.toggle("open");
+//   // for (let i = 0; i < totalSection; i++) {
+//   //   allSection[i].classList.toggle("open");
+//   // }
+// }
 // Modal click
 // const modalBtn = document.querySelector(".modal-btn"),
 //   modalClose = document.querySelector(".close"),

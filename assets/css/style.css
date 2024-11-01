@@ -934,10 +934,10 @@ h3.profession {
   .home .home-img {
     display: none;
   }
-  .service .service-item,
-  .skills .skills-item,
-  .portfolio .portfolio-item,
-  .contact .contact-info-item {
+  .service-item,
+  .skill-item,
+  .portfolio-item,
+  .contact-info-item {
     flex: 0 0 50%;
     max-width: 50%;
   }
