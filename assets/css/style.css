@@ -944,10 +944,11 @@ h3.profession {
 }
 @media (max-width: 767px) {
   .about .about-content .personal-info,
-  .about .about-content .skills,
+  /* .about .about-content .skills, */
   .about .about-content .education,
   .about .about-content .experience,
   .service .service-item,
+  .skill-item,
   .portfolio .portfolio-item,
   .contact .contact-info-item,
   .contact .contact-form .col-6 {
